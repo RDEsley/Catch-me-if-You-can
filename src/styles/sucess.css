@@ -1,0 +1,82 @@
+/* Reset de margens e padding para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    place-items: center; /* Centraliza o conteúdo na tela */
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Cor de fundo neutra */
+}
+
+/* Container principal */
+.container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+/* Mensagem final */
+.final-message a {
+    display: inline-block;
+    padding: 200px 400px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f5f5f5; 
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: background-color 0.3s ease, font-size 0.3s ease; 
+    animation: none; /* Garantir que não há animação inicial */
+}
+
+/* Animação de subida e descida */
+@keyframes moveUpAndDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Subir 10px */
+    }
+    100% {
+        transform: translateY(0); /* Voltar para a posição inicial */
+    }
+}
+
+.final-message a:hover {
+    background-image: url(https://i.pinimg.com/originals/4b/7f/10/4b7f1092b343370323c6d160e78faaf8.gif);
+    font-size: 2.5rem;
+    animation: moveUpAndDown 1s infinite;
+}
+
+
+/* Footer simples */
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Estilo para o link no footer */
+  footer a {
+    color: #2e8b57;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    color: #155a2e;
+    text-decoration: none;
+  }

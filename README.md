@@ -29,7 +29,7 @@ You can play right now in: catch-me-if-you-can-eta.vercel.app
 No installation required! Just clone or download the repository, open the HTML file in your browser, and you're good to go.
 
 ```bash
-git clone https://github.com/your-username/click-challenge-game.git
+git clone https://github.com/your-username/Catch-me-if-You-can.git
 cd click-challenge-game
 open index.html
 ```
@@ -76,7 +76,7 @@ Você pode tentar agora mesmo pelo link: catch-me-if-you-can-eta.vercel.app
 Não é necessário instalar nada! Apenas clone ou baixe o repositório, abra o arquivo HTML no seu navegador e pronto.
 
 ```bash
-git clone https://github.com/your-username/click-challenge-game.git
+git clone https://github.com/your-username/Catch-me-if-You-can.git
 cd click-challenge-game
 open index.html
 ```

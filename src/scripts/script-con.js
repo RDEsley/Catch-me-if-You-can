@@ -13,7 +13,7 @@ function getRandomPosition() {
 // Function to update the message based on the number of clicks
 function updateMessage(clicks) {
   if (clicks < 10) {
-    message.textContent = "You, AGAI?!";
+    message.textContent = "You, AGAIN?!";
   } else if (clicks < 20) {
     message.textContent = "Oh, you think you’re fast, huh?";
   } else if (clicks < 30) {

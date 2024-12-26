@@ -3,6 +3,8 @@
 
 Welcome to the **Click Challenge Game**! A fun little game where you try to click as many times as possible to chase after a moving target. But be warned, the game will keep teasing you with funny and sarcastic messages the more you tries click!
 
+Test the game here: https://catch-me-if-you-can-eta.vercel.app
+
 ## Game Description
 
 The goal of the game is simple: click on the target before the messages get too funny and too intense. Each a try click brings a new message, and the challenge is to see how many clicks you can rack up before the game gives up on you!
@@ -55,6 +57,7 @@ Bem-vindo ao **Jogo Desafio de Cliques**! Um joguinho divertido onde você tenta
 O objetivo do jogo é simples: clique no alvo antes que as mensagens fiquem engraçadas e intensas demais. A cada clique, uma nova mensagem aparece, e o desafio é ver quantos cliques você consegue acumular antes que o jogo desista de você!
 
 À medida que você avança no jogo, as mensagens ficam mais criativas e sarcásticas. De palavras de incentivo até provocações brincalhonas, a cada 10 cliques surge uma nova surpresa. Você consegue chegar a 500 cliques? Só o tempo dirá!
+Teste clicando aqui: https://catch-me-if-you-can-eta.vercel.app
 
 ## Funcionalidades
 
